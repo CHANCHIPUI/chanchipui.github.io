@@ -27,7 +27,8 @@ https://chanchipui.github.io. If it doesn't appear within a few minutes, go to
 ## Files
 
 ```
-index.html                 page content
+index.html                 page content (English)
+zh/index.html              Simplified Chinese version (same structure; asset paths start with ../)
 assets/css/style.css       styles (light + dark theme)
 assets/js/main.js          theme toggle, video autoplay-on-scroll, MarvisNav run picker
 assets/videos/marvisnav/   real-robot, simulation and overview videos, copied from the MarvisNav project page
@@ -37,6 +38,10 @@ assets/img/profile.jpg     profile photo (600×600, EXIF stripped); if removed, 
 ```
 
 ## Common edits
+
+- **Keep both languages in sync:** when you change content in `index.html`, make the same change
+  in `zh/index.html`. In the Chinese file, don't break a line between two Chinese characters,
+  because the browser renders that line break as a visible space.
 
 - **CLAWAR demo video:** save it as `assets/videos/clawar_demo.mp4`, plus an optional poster frame
   `assets/videos/clawar_demo.jpg`. The "coming soon" placeholder disappears once the file exists.

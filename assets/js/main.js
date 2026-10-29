@@ -27,7 +27,9 @@
     var markMissing = function () { frame.classList.add("is-missing"); };
     sources[sources.length - 1].addEventListener("error", markMissing);
     video.addEventListener("error", markMissing);
-    if (video.networkState === HTMLMediaElement.NETWORK_NO_SOURCE) markMissing();
+    // NETWORK_NO_SOURCE is also the state while source selection is still in progress, so it
+    // doesn't prove the file is missing. Restart selection so any failure reaches the listeners.
+    if (video.networkState === HTMLMediaElement.NETWORK_NO_SOURCE) video.load();
   });
 
   // ---------- Play videos only while they are on screen ----------
