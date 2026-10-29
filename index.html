@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chi Pui Chan</title>
+  <meta name="description" content="Chi Pui Chan — MEng Robotics and AI at UCL. Research in embodied AI, reinforcement learning, loco-manipulation and visual navigation.">
+  <meta property="og:title" content="Chi Pui Chan">
+  <meta property="og:description" content="Robotics and embodied AI research at University College London.">
+  <meta property="og:image" content="https://chanchipui.github.io/assets/videos/marvisnav/overview.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232853c7'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='28' text-anchor='middle' fill='white'%3ECP%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    // Apply the saved theme before first paint to avoid a flash.
+    try {
+      var t = localStorage.getItem("theme");
+      if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top">Chi Pui Chan</a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#research">Work</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero wrap">
+      <div class="hero-text">
+        <p class="eyebrow">Robotics &amp; Embodied AI · University College London</p>
+        <h1>Chi Pui Chan</h1>
+        <p class="lede">
+          I'm an MEng Robotics and Artificial Intelligence student and a Research Assistant at
+          <strong>University College London</strong>. I work on reinforcement learning, embodied AI,
+          whole-body control, manipulation, and robot locomotion and navigation, and I take projects
+          from algorithm development and experiments through to publication.
+        </p>
+        <p class="lede">
+          I also interned in R&amp;D at <strong>Antobot</strong>, where I built a real-time
+          person-following system for a mobile robot and deployed it in ROS 2.
+        </p>
+        <div class="links">
+          <a class="btn btn-primary" href="mailto:martin.chan.23@ucl.ac.uk">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg>
+            Email
+          </a>
+          <a class="btn" href="https://www.linkedin.com/in/CHI-PUI-CHAN" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.2 0-2.9-1.8-2.9s-2.1 1.4-2.1 2.8V21h-4z"/></svg>
+            LinkedIn
+          </a>
+          <a class="btn" href="https://github.com/CHANCHIPUI" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9V21c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>
+            GitHub
+          </a>
+          <!-- Uncomment once you add assets/cv.pdf (consider removing phone numbers from the public copy):
+          <a class="btn" href="assets/cv.pdf" target="_blank" rel="noopener">CV</a>
+          -->
+          <!-- Uncomment and add your profile URL:
+          <a class="btn" href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener">Google Scholar</a>
+          -->
+        </div>
+        <ul class="tags" aria-label="Research interests">
+          <li>Reinforcement Learning</li>
+          <li>Embodied AI</li>
+          <li>Loco-Manipulation</li>
+          <li>Visual Navigation</li>
+          <li>Whole-Body Control</li>
+        </ul>
+      </div>
+      <div class="avatar">
+        <span aria-hidden="true">CP</span>
+        <!-- Square photo at assets/img/profile.jpg; if it is missing, the initials show instead. -->
+        <img src="assets/img/profile.jpg" alt="Chi Pui Chan" width="600" height="600" onerror="this.remove()">
+      </div>
+    </section>
+
+    <!-- ============ FEATURED RESEARCH ============ -->
+    <section id="research" class="section wrap">
+      <h2 class="section-title">Featured work</h2>
+
+      <!-- MarvisNav -->
+      <article class="project" id="marvisnav">
+        <div class="project-head">
+          <p class="eyebrow"><span class="badge badge-review">Under review</span> arXiv 2026</p>
+          <h3>MarvisNav: Making Memory Visible on Route Choices for Zero-Shot Object Navigation</h3>
+          <p class="authors">Jincheng Wang, <strong>Chi Pui Chan</strong>, Wei Zeng, Shuyang Zhang, Jianhao Jiao*, Dimitrios Kanoulas</p>
+          <p class="subtitle">
+            A zero-shot object navigation framework that draws topological exploration memory directly
+            onto the egocentric route choices a VLM selects from. Tested on a Unitree Go2, indoors and out.
+          </p>
+          <div class="links links-sm">
+            <a class="btn btn-sm" href="https://wangjincheng1998.github.io/MarvisNav/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>
+              Project page
+            </a>
+            <a class="btn btn-sm" href="https://arxiv.org/abs/2610.06510" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6.5A1.5 1.5 0 0 0 5 4.5v15A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5V8z"/><path d="M14 3v5h5M8.5 13h7M8.5 16.5h7"/></svg>
+              arXiv
+            </a>
+            <a class="btn btn-sm" href="https://arxiv.org/pdf/2610.06510" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 19.5h14"/></svg>
+              PDF
+            </a>
+          </div>
+          <dl class="metrics">
+            <div><dt>Success · HM3D</dt><dd>81.2%</dd></div>
+            <div><dt>SPL · HM3D</dt><dd>42.5%</dd></div>
+            <div><dt>VLM calls</dt><dd>7.5% <small>of WMNav</small></dd></div>
+          </dl>
+        </div>
+
+        <figure class="media">
+          <div class="video-frame" id="nav-frame" style="aspect-ratio: 16 / 9">
+            <video id="nav-video" muted loop playsinline controls preload="metadata" data-autoplay
+                   poster="assets/videos/marvisnav/real-bench.webp">
+              <source src="assets/videos/marvisnav/real-bench.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="picker" role="group" aria-label="Choose a run">
+            <div class="chip-group">
+              <span class="chip-label">Real robot</span>
+              <button class="chip" type="button" aria-pressed="true"
+                      data-src="assets/videos/marvisnav/real-bench.mp4" data-poster="assets/videos/marvisnav/real-bench.webp" data-ratio="16 / 9"
+                      data-meta="Find a bench · outdoors, in a garden · 5 min 34 s · 42.2 m travelled · 11 VLM queries · 3× speed">Bench</button>
+              <button class="chip" type="button" aria-pressed="false"
+                      data-src="assets/videos/marvisnav/real-toilet.mp4" data-poster="assets/videos/marvisnav/real-toilet.webp" data-ratio="16 / 9"
+                      data-meta="Find a toilet · indoors · 1 min 50 s · 14.2 m travelled · 3 VLM queries · 3× speed">Toilet</button>
+              <button class="chip" type="button" aria-pressed="false"
+                      data-src="assets/videos/marvisnav/real-potted-plant.mp4" data-poster="assets/videos/marvisnav/real-potted-plant.webp" data-ratio="16 / 9"
+                      data-meta="Find a potted plant · office reception · 4 min 36 s · 39.2 m travelled · 9 VLM queries · 3× speed">Potted plant</button>
+              <button class="chip" type="button" aria-pressed="false"
+                      data-src="assets/videos/marvisnav/real-person.mp4" data-poster="assets/videos/marvisnav/real-person.webp" data-ratio="16 / 9"
+                      data-meta="Find a person · at home, out on the balcony · 2 min 47 s · 18.1 m travelled · 6 VLM queries · 3× speed">Person</button>
+            </div>
+            <div class="chip-group">
+              <span class="chip-label">Simulation</span>
+              <button class="chip" type="button" aria-pressed="false"
+                      data-src="assets/videos/marvisnav/sim-fire-extinguisher.mp4" data-poster="assets/videos/marvisnav/sim-fire-extinguisher.webp" data-ratio="16 / 9"
+                      data-meta="Find a fire extinguisher · office building · 3 min 55 s · 32.0 m travelled · 7 VLM queries · 2× speed">Fire extinguisher</button>
+            </div>
+            <div class="chip-group">
+              <span class="chip-label">Illustration</span>
+              <button class="chip" type="button" aria-pressed="false"
+                      data-src="assets/videos/marvisnav/overview.mp4" data-poster="assets/videos/marvisnav/overview.jpg" data-ratio="1280 / 592"
+                      data-meta="How MarvisNav searches a house · recorded from the interactive 3D version">Overview</button>
+            </div>
+          </div>
+          <figcaption>
+            <span class="mono" id="nav-meta">Find a bench · outdoors, in a garden · 5 min 34 s · 42.2 m travelled · 11 VLM queries · 3× speed</span><br>
+            Every search starts from an empty map and only the name of its target, with no human help.
+            More on the <a href="https://wangjincheng1998.github.io/MarvisNav/" target="_blank" rel="noopener">project page</a>.
+          </figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li>
+            <span class="step-n">1</span>
+            <h4>Keep a state-aware graph</h4>
+            <p>The robot maps free space and skeletonises it into a reduced Voronoi graph. Junctions are where it decides, and every node carries one of four exploration states.</p>
+          </li>
+          <li>
+            <span class="step-n">2</span>
+            <h4>Draw it on the view</h4>
+            <p>At a junction, visible paths and candidate nodes are projected into a few egocentric views. Each candidate gets a letter and the colour of its state.</p>
+          </li>
+          <li>
+            <span class="step-n">3</span>
+            <h4>Let the VLM choose</h4>
+            <p>One VLM query weighs target relevance against what is left to explore and answers with a letter, which becomes the planner's next goal.</p>
+          </li>
+        </ol>
+      </article>
+
+      <!-- CLAWAR -->
+      <article class="project" id="calf-arms">
+        <div class="project-head">
+          <p class="eyebrow"><span class="badge badge-accepted">Accepted</span> CLAWAR 2026</p>
+          <h3>Calf-Integrated Arms for Bimanual Quadruped Loco-Manipulation</h3>
+          <p class="authors">Yan Pan, Yuanchuan Ren, <strong>Chi Pui Chan</strong>, Jingcheng Sun, Chengxu Zhou*</p>
+          <p class="subtitle">
+            Integrating arms into the calf links of a quadruped, so the robot can walk and manipulate
+            with two arms.
+          </p>
+        </div>
+
+        <figure class="media">
+          <!-- Demo: assets/videos/clawar_demo.mp4 + poster clawar_demo.jpg. The placeholder shows only if the file is missing. -->
+          <div class="video-frame ratio-16x9" data-fallback>
+            <video muted loop playsinline controls preload="metadata" data-autoplay
+                   poster="assets/videos/clawar_demo.jpg">
+              <source src="assets/videos/clawar_demo.mp4" type="video/mp4">
+            </video>
+            <div class="video-placeholder">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5" width="14" height="14" rx="2"/><path d="m16.5 10 5-3v10l-5-3"/></svg>
+              <span>Demo video coming soon</span>
+            </div>
+          </div>
+          <figcaption>
+            In simulation: the robot grasps a basket with its calf-integrated arms, carries it while
+            walking, and places it on a table.
+          </figcaption>
+        </figure>
+      </article>
+
+      <!-- Antobot -->
+      <article class="project" id="person-following">
+        <div class="project-head">
+          <p class="eyebrow"><span class="badge badge-industry">Industry</span> Antobot · R&amp;D internship · 2025</p>
+          <h3>Real-Time Person Following on a Mobile Robot</h3>
+          <p class="subtitle">
+            A YOLO detector and an OSNet re-identification network keep the robot locked on its target
+            person. An Extended Kalman Filter fuses vision with odometry to keep tracking through
+            occlusions, and an artificial potential field planner pulls the robot toward the person and
+            away from obstacles. Deployed in ROS 2.
+          </p>
+          <ul class="tags small"><li>YOLO</li><li>OSNet</li><li>EKF</li><li>APF</li><li>ROS 2</li></ul>
+        </div>
+
+        <figure class="media">
+          <div class="video-frame ratio-16x9">
+            <video muted loop playsinline controls preload="metadata" data-autoplay
+                   poster="assets/videos/antobot/person-following.jpg">
+              <source src="assets/videos/antobot/person-following.mp4" type="video/mp4">
+            </video>
+          </div>
+          <figcaption>
+            Field test on a campus path: obstacle avoidance while tracking, same-class confusion,
+            short-term occlusion recovery, and multiple occlusions with same-class interference.
+            The video has sound; unmute it in the player.
+          </figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <!-- ============ PUBLICATIONS ============ -->
+    <section id="publications" class="section wrap">
+      <h2 class="section-title">Publications</h2>
+      <ol class="pubs">
+        <li class="pub">
+          <div class="pub-venue"><span>arXiv</span><span class="year">2026</span></div>
+          <div class="pub-body">
+            <p class="pub-title">MarvisNav: Making Memory Visible on Route Choices for Zero-Shot Object Navigation</p>
+            <p class="authors">Jincheng Wang, <strong>Chi Pui Chan</strong>, Wei Zeng, Shuyang Zhang, Jianhao Jiao*, and Dimitrios Kanoulas</p>
+            <p class="pub-meta"><em>arXiv:2610.06510</em> · Under review ·
+              <a href="https://wangjincheng1998.github.io/MarvisNav/" target="_blank" rel="noopener">Project page</a> ·
+              <a href="https://arxiv.org/abs/2610.06510" target="_blank" rel="noopener">arXiv</a> ·
+              <a href="#marvisnav">Video</a></p>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub-venue"><span>CLAWAR</span><span class="year">2026</span></div>
+          <div class="pub-body">
+            <p class="pub-title">Calf-Integrated Arms for Bimanual Quadruped Loco-Manipulation</p>
+            <p class="authors">Yan Pan, Yuanchuan Ren, <strong>Chi Pui Chan</strong>, Jingcheng Sun, and Chengxu Zhou*</p>
+            <p class="pub-meta"><em>CLAWAR 2026</em> · Accepted · <a href="#calf-arms">Video</a></p>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub-venue"><span>CCC</span><span class="year">2026</span></div>
+          <div class="pub-body">
+            <p class="pub-title">Deep Reinforcement Learning Optimization for Uncertain Nonlinear Systems via Event-Triggered Robust Adaptive Dynamic Programming</p>
+            <p class="authors">Ningwei Bai, <strong>Chi Pui Chan</strong>, Qichen Yin, Tengyang Gong, Yunda Yan, and Zezhi Tang*</p>
+            <p class="pub-meta"><em>45th Chinese Control Conference (CCC 2026)</em> · Accepted</p>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub-venue"><span>AM</span><span class="year">2026</span></div>
+          <div class="pub-body">
+            <p class="pub-title">Reinforcement Learning Based Optimal Control: A Survey of Adaptive Dynamic Programming for Manipulators and Wheeled Mobile Robots</p>
+            <p class="authors"><strong>Chi Pui Chan</strong>, Ningwei Bai, Qichen Yin, Junan Wang, Boming Hu, Yunda Yan, and Zezhi Tang*</p>
+            <p class="pub-meta"><em>Advanced Mechatronics</em> · Published, 2026</p>
+          </div>
+        </li>
+      </ol>
+      <p class="note">* Corresponding author.</p>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience" class="section wrap">
+      <h2 class="section-title">Experience</h2>
+      <ol class="timeline">
+        <li>
+          <div class="tl-when">Mar 2025 – Present</div>
+          <div class="tl-body">
+            <h3>Research Assistant <span class="at">· University College London</span></h3>
+            <p class="where">London, United Kingdom</p>
+            <p>Research in reinforcement learning, embodied AI, whole-body control, manipulation and robot
+              locomotion/navigation, from algorithm development and experiments through to academic
+              publication. Currently developing <a href="#marvisnav">MarvisNav</a>.</p>
+          </div>
+        </li>
+        <li>
+          <div class="tl-when">Mar 2025 – Jun 2025</div>
+          <div class="tl-body">
+            <h3>Research &amp; Development Intern <span class="at">· Antobot</span></h3>
+            <p class="where">London and Chelmsford, United Kingdom</p>
+            <p>Built a real-time person-following system on a mobile robot: a YOLO detector and an OSNet
+              re-identification network to detect and stay locked on the target person, an Extended
+              Kalman Filter fusing vision with odometry to keep tracking through occlusions, and an
+              artificial potential field planner that pulls the robot toward the person and away from
+              obstacles, deployed in ROS 2. <a href="#person-following">Watch the demo</a>.</p>
+            <ul class="tags small"><li>YOLO</li><li>OSNet</li><li>EKF</li><li>APF</li><li>ROS 2</li></ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ EDUCATION / TEACHING / SKILLS ============ -->
+    <section class="section wrap grid-3">
+      <div class="card">
+        <h2 class="card-title">Education</h2>
+        <h3>University College London</h3>
+        <p>MEng Robotics and Artificial Intelligence</p>
+        <p class="muted">Sep 2023 – Present</p>
+        <dl class="grades">
+          <div><dt>Year 1</dt><dd>83.6</dd></div>
+          <div><dt>Year 2</dt><dd>81.3</dd></div>
+          <div><dt>Year 3</dt><dd>78.1</dd></div>
+        </dl>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Teaching</h2>
+        <h3>Teaching Officer</h3>
+        <p>UCL Robotics Society</p>
+        <p class="muted">Jun 2025 – Jun 2026</p>
+        <p>Taught society members core robotics concepts through structured workshops and hands-on sessions.</p>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Skills</h2>
+        <h3>Programming &amp; tools</h3>
+        <ul class="tags small"><li>Python</li><li>PyTorch</li><li>C</li><li>MATLAB</li><li>OpenCV</li><li>Isaac Sim</li><li>Fusion 360</li></ul>
+        <h3>Robotics</h3>
+        <ul class="tags small"><li>ROS / ROS 2</li></ul>
+        <h3>Languages</h3>
+        <p>Cantonese (native), English, Mandarin</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <h2>Get in touch</h2>
+        <p>I'm happy to talk about research, collaborations and opportunities in robot learning.</p>
+        <p><a href="mailto:martin.chan.23@ucl.ac.uk">martin.chan.23@ucl.ac.uk</a></p>
+      </div>
+      <p class="muted small-print">© <span id="year">2026</span> Chi Pui Chan · Last updated Oct 2026</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
